@@ -1,0 +1,19 @@
+linur fs — NOTICE
+
+This repository is part of linur, a from-scratch Linux-0.11-class kernel in Rust:
+
+  * linur: https://github.com/linur-io/linur
+
+The filesystem crate is derived from the easy-fs of the rCore tutorial operating
+system:
+
+  * rCore-Tutorial-v3: https://github.com/rcore-os/rCore-Tutorial-v3
+  * lineage fork: https://github.com/Fux-i/rCore
+
+Copyright (c) the rCore authors and contributors. The rCore tutorial code is
+licensed under the GNU General Public License, version 3.
+
+linur's filesystem is a derivative work of that code and remains under the GNU
+General Public License, version 3 only (GPL-3.0-only). Source files carry SPDX
+identifiers, and the full license text is in the LICENSE file at the root of
+this repository.
