@@ -9,7 +9,7 @@ use core::mem::ManuallyDrop;
 use core::ptr::{addr_of, addr_of_mut};
 use core::slice;
 
-/// The number of caches kept in memory, docs/block.md §7
+/// The number of caches kept in memory, docs/kernel/block.md §7
 const BLOCK_CACHE_SIZE: usize = 64;
 /// The number of hash buckets the caches are queued in
 const HASH_BUCKETS: usize = 16;
@@ -200,7 +200,7 @@ pub fn get_block_cache(
         .get_block_cache(block_id, block_device)
 }
 
-/// Write every dirty cache back to the block device, docs/block.md §7
+/// Write every dirty cache back to the block device, docs/kernel/block.md §7
 pub fn block_cache_sync_all() {
     let manager = BLOCK_CACHE_MANAGER.lock();
     for (_, cache) in manager.queues.iter().flatten() {

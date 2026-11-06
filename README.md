@@ -8,7 +8,7 @@ types, hard links, `rename`, directory shrink and a hash-queue block cache with
 delayed write.
 
 The on-disk format (v3) is specified in the kernel's
-[docs/vfs.md](https://github.com/linur-io/linur/blob/main/docs/vfs.md) §2; this
+[docs/kernel/vfs.md](https://github.com/linur-io/linur/blob/main/docs/kernel/vfs.md) §2; this
 repository does not restate it.
 
 ## Layout

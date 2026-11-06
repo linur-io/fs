@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPL-3.0-only
-//! The spinlock of docs/block.md §6.
+//! The spinlock of docs/kernel/block.md §6.
 //!
 //! easy-fs cannot depend on the kernel, so it carries its own copy of
 //! `os/src/sync/spinlock.rs`; the two are deliberately separate.
